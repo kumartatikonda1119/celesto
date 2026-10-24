@@ -1,6 +1,6 @@
 {
   "repo_url": "https://github.com/kumartatikonda1119/celesto",
-  "commit": "d7752de941e81421437efb03ea68c8e0e375e9a8",
+  "commit": "0572819c1acf16af0314103d03d4872d877c18d8",
   "test_command": "python3 -m pytest -q {test}",
   "fixtures": [
     {
