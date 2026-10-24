@@ -1,0 +1,8 @@
+{
+  "id": "fx2-slugify-unicode",
+  "subdir": "fixtures/fx2-slugify-unicode/project",
+  "fix_dir": "fixtures/fx2-slugify-unicode/fixed",
+  "issue": "fixtures/fx2-slugify-unicode/issue.md",
+  "expected_signature": "caf-mnster",
+  "test_command": "python3 -m pytest -q {test}"
+}

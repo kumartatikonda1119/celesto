@@ -1,0 +1,15 @@
+=== SafeRepo Network Policy Capability Test ===
+Timestamp: 2026-10-24T06:03:20.000Z
+
+--- Control: open network guest (sbx-saferepo0002a02x) ---
+Command: curl -m 8 -sS -o /dev/null -w '%{http_code}' https://github.com
+Result: 200
+Conclusion: Open guest CAN reach github.com
+
+--- Test: off network guest (sbx-saferepo0003a03x) ---
+Command: curl -m 8 -sS -o /dev/null -w '%{http_code}' https://github.com
+Result: 000 CURL_FAILED
+Conclusion: Off guest CANNOT reach github.com
+
+Both guests deleted successfully.
+Conclusion: Cloud network_policy mode (open/off) is enforced at creation time.

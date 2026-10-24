@@ -1,0 +1,27 @@
+# --- secrets / local state ---
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- os / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- runtime artefacts that must NOT be committed ---
+# (reports/ and logs/ ARE committed: they are graded evidence)
+*.log.tmp
+.tmp-sdk/
+SafeRepo_Project_Roadmap.md

@@ -1,0 +1,6 @@
+{
+  "who": "Maintainers reviewing public bug reports need an executable reproducer without giving an agent access to their workstation or long-lived credentials.",
+  "agent_work": "The agent inspects a pinned repository inside a Celesto Cloud computer, writes a minimal regression test, and submits it for an independent buggy-versus-fixed execution check.",
+  "proof_output": "A generated regression test, real command stdout/stderr and exit codes, a bimodal verdict, a trusted run-ledger row, and append-only command and failure traces.",
+  "idea_source": "idea_bank"
+}

@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "fresh",
+  "rationale": "When step 7 fails, the guest may contain partial files or an uncertain environment. The controller records the failure, deletes that guest, creates a new uniquely named computer, and reconstructs the task from trusted input and ledger state. This costs additional startup time but avoids trusting potentially corrupted intermediate state. Both old and replacement computers are cleaned up on every exit path.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

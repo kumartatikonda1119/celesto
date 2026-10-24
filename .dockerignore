@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.tmp-sdk/
+.git/
+__pycache__/
+.pytest_cache/
+reports/
+logs/
+demo/

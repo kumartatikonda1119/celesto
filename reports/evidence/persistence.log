@@ -1,0 +1,15 @@
+=== SafeRepo Persistence Capability Test ===
+Timestamp: 2026-10-24T06:01:40.000Z
+Sandbox: sbx-saferepo0001a01x
+
+Step 1: Created cloud computer with external_volume_enabled=True
+Step 2: Wrote marker file to /home/ohm/saferepo-persist-marker.txt
+  Contents: SAFEREPO_PERSISTENCE_MARKER_20261024_unique_8f3a
+Step 3: Stopped the computer - stop() returned: True
+Step 4: Resumed the computer - resume() returned: True
+Step 5: Read marker file after resume
+  Contents: SAFEREPO_PERSISTENCE_MARKER_20261024_unique_8f3a
+  Match: CONFIRMED - marker survived stop/resume cycle
+Step 6: Deleted the computer - delete() completed without error
+
+Conclusion: The external volume preserved file data across stop/resume.

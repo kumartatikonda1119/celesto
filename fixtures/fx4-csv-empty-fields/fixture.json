@@ -1,0 +1,8 @@
+{
+  "id": "fx4-csv-empty-fields",
+  "subdir": "fixtures/fx4-csv-empty-fields/project",
+  "fix_dir": "fixtures/fx4-csv-empty-fields/fixed",
+  "issue": "fixtures/fx4-csv-empty-fields/issue.md",
+  "expected_signature": "'b', '', 'd'",
+  "test_command": "python3 -m pytest -q {test}"
+}

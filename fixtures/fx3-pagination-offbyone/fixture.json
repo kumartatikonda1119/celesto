@@ -1,0 +1,8 @@
+{
+  "id": "fx3-pagination-offbyone",
+  "subdir": "fixtures/fx3-pagination-offbyone/project",
+  "fix_dir": "fixtures/fx3-pagination-offbyone/fixed",
+  "issue": "fixtures/fx3-pagination-offbyone/issue.md",
+  "expected_signature": "0, 1, 2",
+  "test_command": "python3 -m pytest -q {test}"
+}

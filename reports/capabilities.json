@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    {
+      "id": "persistence",
+      "why": "The agent's sandbox is ephemeral by design, but persistence lets us verify that the durable workspace survives a stop/resume cycle. This is tested by writing a unique marker, stopping and resuming the guest, and confirming the marker survives.",
+      "evidence_path": "reports/evidence/persistence.log"
+    },
+    {
+      "id": "network_policy",
+      "why": "Network policy enforcement at cloud creation time controls whether a guest can reach external hosts. The test creates two guests with open and off modes and verifies the off guest cannot reach github.com while the open guest can reach it.",
+      "evidence_path": "reports/evidence/network_policy.log"
+    }
+  ]
+}

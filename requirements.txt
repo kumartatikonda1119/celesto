@@ -1,0 +1,13 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+psycopg[binary]==3.2.4
+pydantic==2.10.4
+python-dotenv==1.0.1
+httpx==0.28.1
+pytest==8.3.4
+
+# The cloud adapter verifies and uses this SDK version's create request body.
+# Run the SDK inside the Linux runner container on Windows (no Windows wheel
+# for celesto-core). Re-verify the adapter before changing these versions.
+celesto==0.1.4
+celesto-core==2026.9.22

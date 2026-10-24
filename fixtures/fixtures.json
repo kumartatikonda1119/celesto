@@ -1,0 +1,47 @@
+{
+  "repo_url": "https://github.com/kumartatikonda1119/celesto",
+  "commit": "d7752de941e81421437efb03ea68c8e0e375e9a8",
+  "test_command": "python3 -m pytest -q {test}",
+  "fixtures": [
+    {
+      "id": "fx1-cart-rounding",
+      "dir": "fixtures/fx1-cart-rounding",
+      "subdir": "fixtures/fx1-cart-rounding/project",
+      "fix_dir": "fixtures/fx1-cart-rounding/fixed",
+      "issue": "fixtures/fx1-cart-rounding/issue.md",
+      "expected_signature": "1809 == 1799"
+    },
+    {
+      "id": "fx2-slugify-unicode",
+      "dir": "fixtures/fx2-slugify-unicode",
+      "subdir": "fixtures/fx2-slugify-unicode/project",
+      "fix_dir": "fixtures/fx2-slugify-unicode/fixed",
+      "issue": "fixtures/fx2-slugify-unicode/issue.md",
+      "expected_signature": "caf-mnster"
+    },
+    {
+      "id": "fx3-pagination-offbyone",
+      "dir": "fixtures/fx3-pagination-offbyone",
+      "subdir": "fixtures/fx3-pagination-offbyone/project",
+      "fix_dir": "fixtures/fx3-pagination-offbyone/fixed",
+      "issue": "fixtures/fx3-pagination-offbyone/issue.md",
+      "expected_signature": "0, 1, 2"
+    },
+    {
+      "id": "fx4-csv-empty-fields",
+      "dir": "fixtures/fx4-csv-empty-fields",
+      "subdir": "fixtures/fx4-csv-empty-fields/project",
+      "fix_dir": "fixtures/fx4-csv-empty-fields/fixed",
+      "issue": "fixtures/fx4-csv-empty-fields/issue.md",
+      "expected_signature": "'b', '', 'd'"
+    },
+    {
+      "id": "fx5-date-window",
+      "dir": "fixtures/fx5-date-window",
+      "subdir": "fixtures/fx5-date-window/project",
+      "fix_dir": "fixtures/fx5-date-window/fixed",
+      "issue": "fixtures/fx5-date-window/issue.md",
+      "expected_signature": "assert 0 == 1"
+    }
+  ]
+}

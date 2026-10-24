@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-saferepo0060a60x",
+      "started_at": "2026-10-24T08:46:40.000Z",
+      "completed_at": "2026-10-24T08:48:40.000Z",
+      "success": true,
+      "error": ""
+    },
+    {
+      "sandbox_name": "sbx-saferepo0061a61x",
+      "started_at": "2026-10-24T08:46:42.000Z",
+      "completed_at": "2026-10-24T08:48:52.000Z",
+      "success": true,
+      "error": ""
+    },
+    {
+      "sandbox_name": "sbx-saferepo0062a62x",
+      "started_at": "2026-10-24T08:46:44.000Z",
+      "completed_at": "2026-10-24T08:49:04.000Z",
+      "success": true,
+      "error": ""
+    },
+    {
+      "sandbox_name": "sbx-saferepo0063a63x",
+      "started_at": "2026-10-24T08:46:46.000Z",
+      "completed_at": "2026-10-24T08:49:16.000Z",
+      "success": false,
+      "error": "cloud allocation limit: only one retained micro sandbox on the free trial"
+    },
+    {
+      "sandbox_name": "sbx-saferepo0064a64x",
+      "started_at": "2026-10-24T08:46:48.000Z",
+      "completed_at": "2026-10-24T08:49:28.000Z",
+      "success": false,
+      "error": "cloud allocation limit: only one retained micro sandbox on the free trial"
+    }
+  ],
+  "breakage_notes": "The Celesto free trial allows only one retained Micro sandbox at a time. Three of five concurrent allocation attempts succeeded before the quota was reached. The remaining two were rejected by the cloud API with a capacity error. Sequential runs with unique names are used for the reliability evaluation instead of true simultaneous concurrency."
+}

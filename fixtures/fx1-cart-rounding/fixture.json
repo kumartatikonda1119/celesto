@@ -1,0 +1,8 @@
+{
+  "id": "fx1-cart-rounding",
+  "subdir": "fixtures/fx1-cart-rounding/project",
+  "fix_dir": "fixtures/fx1-cart-rounding/fixed",
+  "issue": "fixtures/fx1-cart-rounding/issue.md",
+  "expected_signature": "1809 == 1799",
+  "test_command": "python3 -m pytest -q {test}"
+}

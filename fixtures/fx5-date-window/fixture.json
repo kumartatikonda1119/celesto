@@ -1,0 +1,8 @@
+{
+  "id": "fx5-date-window",
+  "subdir": "fixtures/fx5-date-window/project",
+  "fix_dir": "fixtures/fx5-date-window/fixed",
+  "issue": "fixtures/fx5-date-window/issue.md",
+  "expected_signature": "assert 0 == 1",
+  "test_command": "python3 -m pytest -q {test}"
+}

@@ -1,0 +1,37 @@
+{"ts": "2026-10-24T06:05:00.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 1, "step_name": "validate_input", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:05:01.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 1, "step_name": "validate_input", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:05:02.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 2, "step_name": "create_sandbox", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:05:10.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 2, "step_name": "create_sandbox", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:05:11.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 3, "step_name": "wait_ready", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:05:20.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 3, "step_name": "wait_ready", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x", "boot_to_ready_s": 8.5}
+{"ts": "2026-10-24T06:05:21.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 4, "step_name": "clone_repository", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:05:50.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 4, "step_name": "clone_repository", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:05:51.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 5, "step_name": "inspect_repository", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:06:00.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 5, "step_name": "inspect_repository", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:06:01.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 6, "step_name": "write_regression_test", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:06:40.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 6, "step_name": "write_regression_test", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:06:41.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 7, "step_name": "execute_untrusted_test", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x"}
+{"ts": "2026-10-24T06:06:42.000Z", "event": "step_failed", "run_id": "run-fp-001", "step": 7, "step_name": "execute_untrusted_test", "total_steps": 10, "sandbox_name": "sbx-saferepo0010a10x", "error": "injected failure at step 7 (SAFEREPO_FAULT=step7); guest discarded", "retryable": true}
+{"ts": "2026-10-24T06:06:43.000Z", "event": "cleanup", "run_id": "run-fp-001", "sandbox_name": "sbx-saferepo0010a10x", "final_state": "deleted", "action": "deleted_for_policy", "delete_error": ""}
+{"ts": "2026-10-24T06:06:44.000Z", "event": "policy_applied", "run_id": "run-fp-001", "policy": "fresh", "failed_step": 7, "total_steps": 10, "old_sandbox_name": "sbx-saferepo0010a10x", "new_sandbox_name": "sbx-saferepo0011a11x", "reason": "injected failure at step 7 (SAFEREPO_FAULT=step7); guest discarded", "applied_at": "2026-10-24T06:06:44.000Z"}
+{"ts": "2026-10-24T06:06:45.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 2, "step_name": "create_sandbox", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:06:55.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 2, "step_name": "create_sandbox", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:06:56.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 3, "step_name": "wait_ready", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:07:05.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 3, "step_name": "wait_ready", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x", "boot_to_ready_s": 9.1}
+{"ts": "2026-10-24T06:07:06.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 7, "step_name": "execute_untrusted_test", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:07:10.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 7, "step_name": "execute_untrusted_test", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x", "exit_code": 1}
+{"ts": "2026-10-24T06:07:11.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 8, "step_name": "classify_result", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:07:15.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 8, "step_name": "classify_result", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x", "verdict": "reproduced"}
+{"ts": "2026-10-24T06:07:16.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 9, "step_name": "persist_evidence", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:07:17.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 9, "step_name": "persist_evidence", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:07:18.000Z", "event": "step_started", "run_id": "run-fp-001", "step": 10, "step_name": "report_and_cleanup", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x"}
+{"ts": "2026-10-24T06:07:19.000Z", "event": "cleanup", "run_id": "run-fp-001", "sandbox_name": "sbx-saferepo0011a11x", "final_state": "deleted", "delete_error": ""}
+{"ts": "2026-10-24T06:07:20.000Z", "event": "step_finished", "run_id": "run-fp-001", "step": 10, "step_name": "report_and_cleanup", "total_steps": 10, "sandbox_name": "sbx-saferepo0011a11x", "result": "reproduced"}
+{"ts": "2026-10-24T06:08:20.000Z", "event": "step_started", "run_id": "run-lc-success", "step": 1, "step_name": "validate_input", "total_steps": 10, "sandbox_name": "sbx-saferepo0020a20x"}
+{"ts": "2026-10-24T06:10:00.000Z", "event": "cleanup", "run_id": "run-lc-success", "sandbox_name": "sbx-saferepo0020a20x", "final_state": "deleted", "delete_error": ""}
+{"ts": "2026-10-24T06:11:40.000Z", "event": "step_started", "run_id": "run-lc-failure", "step": 1, "step_name": "validate_input", "total_steps": 10, "sandbox_name": "sbx-saferepo0021a21x"}
+{"ts": "2026-10-24T06:13:20.000Z", "event": "step_failed", "run_id": "run-lc-failure", "step": 6, "step_name": "write_regression_test", "total_steps": 10, "sandbox_name": "sbx-saferepo0021a21x", "error": "deliberate test failure"}
+{"ts": "2026-10-24T06:13:21.000Z", "event": "cleanup", "run_id": "run-lc-failure", "sandbox_name": "sbx-saferepo0021a21x", "final_state": "deleted", "delete_error": ""}
+{"ts": "2026-10-24T06:15:00.000Z", "event": "step_started", "run_id": "run-lc-interrupt", "step": 1, "step_name": "validate_input", "total_steps": 10, "sandbox_name": "sbx-saferepo0022a22x"}
+{"ts": "2026-10-24T06:15:50.000Z", "event": "step_failed", "run_id": "run-lc-interrupt", "step": 5, "step_name": "inspect_repository", "total_steps": 10, "sandbox_name": "sbx-saferepo0022a22x", "error": "interrupted"}
+{"ts": "2026-10-24T06:15:51.000Z", "event": "cleanup", "run_id": "run-lc-interrupt", "sandbox_name": "sbx-saferepo0022a22x", "final_state": "deleted", "delete_error": ""}
